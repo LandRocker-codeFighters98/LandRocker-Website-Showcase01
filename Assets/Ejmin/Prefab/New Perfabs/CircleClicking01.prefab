@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7573244533815982956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7573244533815982958}
+  - component: {fileID: 7573244533815982957}
+  m_Layer: 0
+  m_Name: CircleClicking01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7573244533815982958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7573244533815982956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -457, y: -41, z: 62.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7573244533815982957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7573244533815982956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1be4b3ef12be114a87e91258ef1c46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraForRendering: {fileID: 0}
+  colorAlpha: 1
+  innerRingInitialColor: {r: 0.96862745, g: 0.22745098, b: 0.09411765, a: 1}
+  outerRingInitialColor: {r: 0.96862745, g: 0.22745098, b: 0.09411765, a: 1}
+  innerRingRadius: 9
+  outerRingRadius: 7
+  innerRingThickness: 0.2
+  outerRingThickness: 0.28
+  lineColor: {r: 0.96862745, g: 0.22745098, b: 0.09411765, a: 1}
+  lineThickness: 0.5
+  lineEndCap: 2
+  offsetLine01: {x: 4, y: 2.5, z: 0}
+  offsetLine02: {x: 11, y: 6, z: 0}
+  textColor: {r: 0.96862745, g: 0.22745098, b: 0.09411765, a: 1}
+  text: Explore
+  textFontSize: 30
+  textOffset: {x: 12.5, y: 8, z: 0}
+  textAlign: 4

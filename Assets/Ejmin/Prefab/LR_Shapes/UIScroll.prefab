@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &734393941028524312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734393941028524319}
+  - component: {fileID: 734393941028524318}
+  m_Layer: 5
+  m_Name: UIScroll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &734393941028524319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734393941028524312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -64.5, y: 26.399998, z: 79.855255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &734393941028524318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734393941028524312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98dc6158931bc5246ad432ba2c983688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraRendering: {fileID: 0}
+  radiusForClick: 2
+  polyLineCount: 5
+  polyLinePath:
+  - {x: 0, y: -1, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 1, y: 0, z: 0}
+  - {x: 0, y: -1, z: 0}
+  polyLineColor: {r: 1, g: 1, b: 1, a: 1}
+  polyLineThickness: 0.2
+  offsetOnPolyLines: {x: 0, y: -10, z: 0}
+  dashStyle:
+    type: 0
+    space: -1
+    snap: 0
+    size: 1
+    offset: 0
+    spacing: 1
+    shapeModifier: 1
+  dashOffset: {x: 0, y: 1, z: 0}
+  dashColor: {r: 0.87452936, g: 1, b: 0, a: 1}
+  dashThickness: 0.15
+  discRadius: 0.2
+  lineThickness: 0.1
+  lineColor: {r: 1, g: 1, b: 1, a: 1}
+  lineEndCap: 2
+  shortTexts:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  shortTextsOffset: {x: 0, y: 0, z: 0}
+  shortTextsFontSize: 17
+  shortTextsColor: {r: 1, g: 1, b: 1, a: 1}
+  introTexts:
+  - LandRocker
+  - LandRocker Mechanic
+  - LandRocker Physics
+  - LandRocker NFT
+  - LandRocker Coin
+  introTextsOffset: {x: 3, y: 0, z: 0}
+  introTextsFontSize: 20
+  introTextsColor: {r: 0, g: 1, b: 0.110634804, a: 1}
+  lerpingDuration: 2
+  lerpingInverseDuration: 1
+  lerpingScaler: 3
+  lerpingInverseScaler: 6
+  director: {fileID: 0}
+  timeLineLerpSpeed: 2

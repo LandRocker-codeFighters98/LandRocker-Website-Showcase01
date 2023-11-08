@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1838718779312913076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1838718779312913098}
+  - component: {fileID: 1838718779312913077}
+  m_Layer: 0
+  m_Name: UIScroll07_Ejmin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1838718779312913098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838718779312913076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -78.63, y: 41.48, z: 120.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1838718779312913077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838718779312913076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d05179088fe42b4daed4d4d997be258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useCullingMasks: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 20.792711
+      outSlope: 20.792711
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.19951361
+    - serializedVersion: 3
+      time: 0.55580896
+      value: 9.969945
+      inSlope: -0.011742969
+      outSlope: -0.011742969
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1.0342407
+      value: -0.031066895
+      inSlope: -29.812782
+      outSlope: -29.812782
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09269767
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  textsManager_Actions:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TextsAppearing_Manager, Assembly-CSharp
+        m_MethodName: TextIsPassed
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TextsAppearing_Manager, Assembly-CSharp
+        m_MethodName: TextNotPassed
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  cameraRendering: {fileID: 0}
+  radiusForClick: 20
+  radiusForMouseEntering: 20
+  scrollScaler: 5
+  scrollAmountScaler: 1
+  spriteHeightLogo: 2.16
+  spriteHeightLogo_Focused: 6.1
+  spriteCount: 5
+  offsetOnSprites: {x: 30, y: 0, z: 0}
+  offsetOnSprites_Focused: {x: 33.63, y: 0, z: 0}
+  offsetLogos: {x: 0, y: 0, z: 0}
+  spriteLogo_General: {fileID: 21300000, guid: 82d7bc96b79af4a47909a94c9d622ae9, type: 3}
+  spriteLogo_Color_General: {r: 1, g: 1, b: 1, a: 1}
+  spriteLogo_Scale_General: {x: 0.8, y: 0.8, z: 0.8}
+  alphaSpriteScaler_LogoSprite_General: 0.6
+  alphaSpriteScaler_LogoSprite_Fixed_General: 0.5
+  spriteLogoLerpScalerForBecomingBack_General: 5
+  spriteLogo_Focused: {fileID: 21300000, guid: 648319b243d0f48449486752867140f0, type: 3}
+  spriteLogo_Focused_Color: {r: 1, g: 1, b: 1, a: 1}
+  spriteLogo_Focues_Scale: {x: 3, y: 3, z: 3}
+  lerpingScalerFor_Focused: 8
+  spriteLogo_Focused_Glow: {fileID: 21300000, guid: cb83cd18b73824349bd307056a4d06f8, type: 3}
+  spriteLogo_Focused_Glow_Color: {r: 0, g: 1, b: 0.96862745, a: 0.19607843}
+  spriteLogo_Focused_Glow_Scale: {x: 3, y: 3, z: 3}
+  lerpingScalerFor_Focused_Glow: 8
+  spriteLogo_Circle_Glow: {fileID: 21300000, guid: 5037bed9c10e8ab4198aa2534c4a6f17, type: 3}
+  spriteLogo_Circle_Glow_Color: {r: 0, g: 1, b: 0.96862745, a: 0.23529412}
+  spriteLogo_Circle_Glow_Scale: {x: 0.4, y: 0.4, z: 0.4}
+  spriteLogo_Circle_Glow_Scale_Lerping: {x: 0.7, y: 0.7, z: 0.7}
+  Circle_Glow_Lerp_Scaler: 3
+  dashStyle:
+    type: 0
+    space: -1
+    snap: 0
+    size: 1
+    spacing: 1
+    offset: 0
+    shapeModifier: 1
+  dashColor: {r: 0.14509805, g: 0.15294118, b: 0.2, a: 1}
+  dashThickness: 0.14
+  discRadius: 0.29
+  discColor: {r: 0, g: 1, b: 0.96862745, a: 1}
+  lineThickness: 0.1
+  lineColor: {r: 0, g: 1, b: 0.96862745, a: 1}
+  lineEndCap: 0
+  height_Line: 10
+  stepCount_Line: 20
+  landRockerArcLineThickness_Line: 0.2
+  landRockerArcLineColor_Line: {r: 0, g: 1, b: 0.96862745, a: 1}
+  landRockerArcLineEndCap_Line: 2
+  height_Dashed: 10
+  stepCount_Dashed: 20
+  landRockerArcLineThickness_Dashed: 0.1
+  landRockerArcLineColor_Dashed: {r: 0.14509805, g: 0.15294118, b: 0.2, a: 1}
+  landRockerArcLineEndCap_Dashed: 2
+  introTexts:
+  - LandRocker
+  - LandRocker NFT
+  - LandRocker Market
+  - LandRocker Maps
+  - LandRocker Tesla
+  introTextsOffset: {x: -0.17, y: -2, z: 0}
+  introTextsFontSize: 20
+  introFontAsset_Gerenal: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  introFontAsset_Focused: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  introTextsAngle: 7.1
+  alphaTextScaler: 3
+  alphaTextFixed: 0.2
+  introTextsColor_Focused: {r: 0, g: 1, b: 0.96862745, a: 1}
+  introTextsColor_Generic: {r: 1, g: 1, b: 1, a: 1}
+  introTextsAlign: 2
+  director: {fileID: 0}
+  timeLineLerpSpeed: 0
+  isScrolling: 1
+  timeLineLerpSpeedScaler: 1
+  points: []
+  ourPos: {x: 0, y: 0, z: 0}
+  initialPos: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  tempScale: {x: 0, y: 0, z: 0}
+  height: 5

@@ -1,0 +1,34 @@
+﻿Thanks for purchasing!
+
+● Requirements: 
+
+For this package work properly you need install URP (Universal Render Pipeline) and use Linear Color Space for a better look.
+
+● How to Set-up: 
+
+	●URP:
+	
+	-Go to Window > Package Manager > URP (Universal Render Pipeline) And Install.
+	-When finish all materials look with magenta color, to solve this you need create a Render Settings. 
+	You can use the settings created for this package or create your own settings.
+	-If you wanna use the settings for this package:
+		go to Sci-fi Pack/Demo/Scene/Settings/UniversalRenderPipelineAsset
+	-If you wanna create your own settings: 
+		go to the project window and right click and Create > Rendering > Universal Render Pipeline > Pipeline Asset
+	-Now you need to put this on Graphics Settings:
+		go to Edit in the Unity window > Project Settings > Graphics and drag the UniversalRenderPipelineAsset in the Scriptable Render Pipeline Settings.
+	
+	●Linear Color Space:
+
+	-Is not necessary to do this, but colors looks great with this.
+	-Go to Edit in the Unity window > Project Settings > Player > In the inspector go to Other Settings > Rendering > Color Space and choose Linear.
+
+
+● If you need Help: 
+	-Send an email to: zakhanfx@hotmail.com
+
+
+
+
+
+
